@@ -1,0 +1,28 @@
+{
+  "name": "lodash-experiments",
+  "version": "1.0.0",
+  "description": "Experiments with the lodash library for Functional Javascript",
+  "main": "main.js",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yboyacigil/lodash-experiments.git"
+  },
+  "keywords": [
+    "lodash",
+    "functional",
+    "programming"
+  ],
+  "author": "Yusuf Boyacıgil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yboyacigil/lodash-experiments/issues"
+  },
+  "homepage": "https://github.com/yboyacigil/lodash-experiments#readme"
+}
