@@ -20,3 +20,16 @@ console.log("Sum of array using head-tail is: ", sumHeadTail(arr));
 var sumReduce = (arr) => _.reduce(arr, (a, b) => a +b);
 console.log("Sum of array using reduce is: ", sumReduce(arr));
 
+// Intersection
+var arr1 = [1, 2, 3];
+var arr2 = [2, 3, 4];
+console.log("Intersection of arr1: ", arr1, ", arr2: ", arr2, " is: ", _.intersection(arr1, arr2));
+
+// dropWhile
+var users = [
+    {name: 'Yusuf', age: 39},
+    {name: 'Yavuz', age: 10},
+    {name: 'Fatma', age: 36}
+];
+var droppedUsersWhileAgeIsOver30 = _.dropWhile(users, function(user) {return user.age > 30});
+console.log("Dropping users over age 30 from: ", users, " and the result is: ", droppedUsersWhileAgeIsOver30);

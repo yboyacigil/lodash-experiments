@@ -8,7 +8,8 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    "build/arrays.js": "src/arrays.js"
+                    "build/arrays.js": "src/arrays.js",
+                    'build/functions.js': 'src/functions.js'
                 }
             }
         }
